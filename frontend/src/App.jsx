@@ -1,7 +1,5 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { AuthProvider } from './context/authContext'
-import { SessionProvider } from './context/sessionContext'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './pages/Home'
@@ -27,8 +25,6 @@ function Layout({children, showHeader=true, showFooter=true}){
 
 const App = () => {
   return (
-    <AuthProvider>
-      <SessionProvider>
       <Router>
         <Toaster 
           position='top-right'
@@ -135,8 +131,6 @@ const App = () => {
           </Routes>
         </div>
       </Router>
-      </SessionProvider>
-    </AuthProvider>
   )
 }
 

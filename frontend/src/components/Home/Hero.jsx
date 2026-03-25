@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaArrowRight, FaCheckCircle, FaRocket } from 'react-icons/fa'
 import { APP_CONFIG, ROUTES } from '../../utils/constants'
-import { useAuth } from '../../context/authContext'
+import { useAuth } from '../../context/AuthContext'
 import { Link } from 'react-router-dom'
 
 const Hero = () => {

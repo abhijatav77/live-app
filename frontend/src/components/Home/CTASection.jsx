@@ -1,5 +1,5 @@
 import React from 'react'
-import { useAuth } from '../../context/authContext'
+import { useAuth } from '../../context/AuthContext'
 import { APP_CONFIG, ROUTES } from '../../utils/constants'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
