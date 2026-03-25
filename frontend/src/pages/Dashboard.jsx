@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { useAuth } from '../context/authContext'
-import { useSession } from '../context/sessionContext';
+import { useAuth } from '../context/AuthContext'
+import { useSession } from '../context/SessionContext';
 import { useNavigate } from 'react-router-dom';
 import { ROUTES } from '../utils/constants';
 import WelcomeSection from '../components/Dashboard/WelcomeSection';

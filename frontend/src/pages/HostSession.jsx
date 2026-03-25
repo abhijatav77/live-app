@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { useAuth } from '../context/authContext'
+import { useAuth } from '../context/AuthContext'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { useZego } from '../hook/useZego'
 import { API_ENDPOINTS, APP_CONFIG, ROUTES } from '../utils/constants'
